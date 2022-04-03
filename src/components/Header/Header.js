@@ -1,5 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -7,16 +9,20 @@ const Header = () => {
             <nav>
                 <Nav className="justify-content-center" activeKey="/home">
                     <Nav.Item>
-                        <Nav.Link href="/home">HOME</Nav.Link>
+                        <Link to='/home' className='header-items'>HOME</Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="/review">REVIEW</Nav.Link>
+                        <Link to='/review' className='header-items'>REVIEW</Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="dashboard">DASHBOARD</Nav.Link>
+                        <Link to='/dashboard' className='header-items'>DASHBOARD</Link>
                     </Nav.Item>
-                    <Nav.Link eventKey="blogs">BLOGS</Nav.Link>
-                    <Nav.Link eventKey="/about">ABOUT</Nav.Link>
+                    <Nav.Item>
+                        <Link to='/blogs' className='header-items'>BLOGS</Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Link to='/about' className='header-items'>ABOUT</Link>
+                    </Nav.Item>
                 </Nav>
             </nav>
         </div>
