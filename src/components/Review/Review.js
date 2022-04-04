@@ -1,16 +1,14 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 const Review = (props) => {
-    const {name, review, rating} = props.review;
+    const { name, review, rating } = props.review;
     return (
-        <div>
-            <Card style={{ width: '18rem' }}>
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+        <div className='w-50 m-auto mt-5'>
+            <Card>
+                <Card.Header as="h5">{name}</Card.Header>
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
-                        {review} {rating}
-                    </Card.Text>
+                    <Card.Title>{review}</Card.Title>
+                    <Card.Text>{rating}</Card.Text>
                 </Card.Body>
             </Card>
         </div>

@@ -55,6 +55,7 @@ const Dashboard = () => {
     return (
         <div>
             <div>
+                <h3>MONTH WISE SELL</h3>
                 <LineChart width={500} height={300} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" padding={{ left: 30, right: 30 }} />
@@ -70,6 +71,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
+                <h3>INVESTMENT VS REVENUE</h3>
                 <PieChart width={400} height={400}>
                     <Pie
                         data={data}

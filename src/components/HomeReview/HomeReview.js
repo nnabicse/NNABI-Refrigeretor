@@ -4,14 +4,12 @@ import { Card } from 'react-bootstrap';
 const HomeReview = (props) => {
     const { name, review, rating } = props.review;
     return (
-        <div className='d-flex'>
-            <Card style={{ width: '18rem' }}>
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+        <div className='w-75 m-auto mb-3'>
+            <Card>
+                <Card.Header as="h5">{name}</Card.Header>
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
-                        {review} {rating}
-                    </Card.Text>
+                    <Card.Title>{review}</Card.Title>
+                    <Card.Text>{rating}</Card.Text>
                 </Card.Body>
             </Card>
         </div>
