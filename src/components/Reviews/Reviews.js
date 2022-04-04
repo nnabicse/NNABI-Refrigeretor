@@ -7,8 +7,8 @@ const Reviews = () => {
     const [review, setReview] = useReview()
     return (
         <div className='mt-4'>
-            <h1 className='text-center fw-bolder'>All Consumer Reviews on NNABI01C Double</h1>
-            <div className='review-container w-75 m-auto'>
+            <h1 className='text-center fw-bolder review-heading'>All Consumer Reviews on NNABI01C Double</h1>
+            <div className='review-container m-auto'>
                 {
                     review.map(review => <Review
                         key={review.id}

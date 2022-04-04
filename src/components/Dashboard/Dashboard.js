@@ -10,6 +10,7 @@ import {
     PieChart,
     Pie
 } from "recharts";
+import './Dashboard.css'
 
 const data = [
     {
@@ -53,9 +54,9 @@ const data = [
 
 const Dashboard = () => {
     return (
-        <div>
-            <div>
-                <h3>MONTH WISE SELL</h3>
+        <div className='dashboard-container mt-5'>
+            <div className='line-chart'>
+                <h3 className='text-center'>MONTH WISE SELL</h3>
                 <LineChart width={500} height={300} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" padding={{ left: 30, right: 30 }} />
@@ -70,9 +71,9 @@ const Dashboard = () => {
                     />
                 </LineChart>
             </div>
-            <div>
-                <h3>INVESTMENT VS REVENUE</h3>
-                <PieChart width={400} height={400}>
+            <div className='pie-chart'>
+                <h3 className='text-center'>INVESTMENT VS REVENUE</h3>
+                <PieChart width={500} height={300}>
                     <Pie
                         data={data}
                         dataKey="investment"

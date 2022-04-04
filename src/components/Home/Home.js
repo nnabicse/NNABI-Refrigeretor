@@ -6,7 +6,7 @@ import mainImage from '../../images/mainImage.png'
 
 const Home = () => {
     return (
-        <div className='w-75 m-auto mt-3'>
+        <div className='product-and-review-container m-auto mt-3'>
             <div className='product-container'>
                 <div className='product-info'>
                     <h1 className='brand'>NNABI Refrigeration Co.</h1>

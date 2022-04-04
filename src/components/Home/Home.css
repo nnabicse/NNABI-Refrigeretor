@@ -4,6 +4,9 @@
     align-items: center;
     justify-items: center;
 }
+.product-and-review-container{
+    width: 75%;
+}
 
 
 .product-info{
@@ -77,4 +80,25 @@
 
 .main-text{
     text-align: justify;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .product-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .product-image img{
+        margin-top: 15px;
+        width: 300px;
+    }
+    .product-info{
+        width: 100%;
+    } 
+    .product-and-review-container{
+        width: 100%;
+        padding: 0px 10px;
+    }
 }
