@@ -24,9 +24,8 @@
 .review-home-container{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 5px;
-    margin-top: 20px;
+    margin: 20px auto;
     border-radius: 20px;
-    margin-bottom: 30px;
 }
 
 .brand{
@@ -39,3 +38,43 @@
     font-weight: 700;
 }
 
+.see-all-button{
+    background-color: tomato; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+
+/* .see-all-button-text{
+    
+} */
+
+.home-card-header{
+    text-align: center;
+}
+
+.demo-button-text{
+    font-weight: 600;
+    color: white;
+}
+
+.demo-button{
+    background-color: tomato; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.see-all-button-text{
+    font-weight: 500;
+}
+
+.main-text{
+    text-align: justify;
+}

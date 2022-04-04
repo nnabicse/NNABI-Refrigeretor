@@ -1,72 +1,65 @@
 [
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Iqbal Hossain Sarker",
+        "review": "Very good space management. Good lighting in compartments. Perfect sapace divisioning. Overall good.",
         "id": 241,
         "rating": 3.5,
         "img": "https://randomuser.me/api/portraits/men/90.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Samir Skwat Ullah",
+        "review": "Very good sensos management. Lighting sensors  in compartments woorks fine. Overall good.",
         "id": 242,
         "rating": 5,
         "img": "https://randomuser.me/api/portraits/men/91.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Ahmed Kndkor Marawat",
+        "review": "Goog color sustainability. Freezing capabilities are awsome. lots of improvement needed. overall good work",
         "id": 243,
         "rating": 2,
         "img": "https://randomuser.me/api/portraits/men/92.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Shapoor Zadran Afgani",
+        "review": "Sometimes light sensors not works. I think it's a software issue. Update as soon as possible. Good Job.",
         "id": 244,
         "rating": 5,
         "img": "https://randomuser.me/api/portraits/men/93.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Azgor Kzak Mullamian",
+        "review": "I bought this product yesterday and its awsome. I just felt love with it. Good job team NNABI.",
         "id": 245,
         "rating": 4,
         "img": "https://randomuser.me/api/portraits/men/94.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Lord Litunian Beltman",
+        "review": "I will never buy a product that has four components .I dont know wht you guys make this.",
         "id": 246,
         "rating": 2,
         "img": "https://randomuser.me/api/portraits/men/95.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Grame Perteson Bellman",
+        "review": "I have faced some issues about this product and the after sell service was too bad. Please improve.",
         "id": 247,
         "rating": 3,
         "img": "https://randomuser.me/api/portraits/men/96.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Mullah Sikkimurradian Daya",
+        "review": "I think that was one of my worst dicision to buy this. My wife loved this product but I'm not.",
         "id": 248,
         "rating": 1.5,
         "img": "https://randomuser.me/api/portraits/men/97.jpg"
     },
     {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
+        "name": "Dr. Somaliana Trimand",
+        "review": "My familly is so happy to get this. It makes our life easier specially for my wife. Loved it.",
         "id": 249,
         "rating": 5,
         "img": "https://randomuser.me/api/portraits/men/98.jpg"
-    },
-    {
-        "name": "I.H. Sarker",
-        "review": "Very good space management",
-        "id": 240,
-        "rating": 5,
-        "img": "https://randomuser.me/api/portraits/men/99.jpg"
     }
 ]

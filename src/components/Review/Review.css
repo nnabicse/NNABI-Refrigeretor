@@ -1,5 +1,13 @@
 .card-image{
-    width: 30%;
-    border-radius: 20px;
+    width: 50px;
+    border-radius: 80px;
     margin-right: 5px;
+}
+
+/* .card-header{
+    text-align: center;
+} */
+
+.card-text{
+    text-align: justify;
 }
