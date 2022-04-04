@@ -1,13 +1,8 @@
 .product-info{
     text-align: start;
+    width: 75%;
 }
 
 .product-image img{
     width: 300px;
-    margin-left: 70px;
-}
-
-
-.reviews-container{
-    align-items: center;
 }

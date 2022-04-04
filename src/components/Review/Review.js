@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 const Review = (props) => {
     const { name, review, rating } = props.review;
     return (
-        <div className='w-50 m-auto mt-5'>
+        <div className='my-5 mx-2'>
             <Card>
                 <Card.Header as="h5">{name}</Card.Header>
                 <Card.Body>

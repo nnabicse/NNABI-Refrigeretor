@@ -6,7 +6,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className='mt-5 p-5'>
+        <div className='w-75 m-auto mt-3'>
             <div className='d-flex align-items-center'>
                 <div className='product-info'>
                     <h1>NNABI Refrigeration Company</h1>
