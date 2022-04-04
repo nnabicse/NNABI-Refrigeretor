@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
+        <div className='header-container py-4'>
             <nav>
                 <Nav className="justify-content-center" activeKey="/home">
                     <Nav.Item>

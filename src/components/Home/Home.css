@@ -1,8 +1,41 @@
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+
 .product-info{
     text-align: start;
     width: 75%;
 }
 
+
 .product-image img{
-    width: 300px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: rgba(250, 235, 215, 0.39);
 }
+
+
+
+.review-home-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.brand{
+    color: blue;
+    font-weight: 700;
+}
+
+.model span{ 
+    color: tomato;
+    font-weight: 700;
+}
+

@@ -1,4 +1,10 @@
 .header-items{
     text-decoration: none;
-    margin-right: 40px;   
+    margin-right: 70px; 
+    color: white;
+    font-weight: 600;  
+}
+
+.header-container{
+    background-color: blue;
 }
