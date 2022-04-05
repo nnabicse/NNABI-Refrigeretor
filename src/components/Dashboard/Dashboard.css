@@ -1,7 +1,14 @@
-/* .dashboard-container{
+.dashboard-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.chart-header{
+    text-align: center;
+    color: tomato;
 }
 
 
@@ -11,4 +18,4 @@
         grid-template-columns: 1fr;
         align-items: center;
     }
-  } */
+  }
