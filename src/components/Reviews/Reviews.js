@@ -7,7 +7,7 @@ const Reviews = () => {
     const [review, setReview] = useReview()
     return (
         <div className='mt-4'>
-            <h1 className='text-center fw-bolder review-heading'>All Consumer Reviews on NNABI01C Double</h1>
+            <h1 className='review-heading'>All Consumer Reviews on NNABI01C Double</h1>
             <div className='review-container m-auto'>
                 {
                     review.map(review => <Review

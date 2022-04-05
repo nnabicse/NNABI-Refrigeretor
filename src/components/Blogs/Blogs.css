@@ -1,0 +1,33 @@
+.context-image{
+    width:100%;
+    margin: auto;
+}
+
+
+.context-image-container{
+    width: 75%;
+    margin: auto;
+}
+
+.blogs-container{
+    width: 75%;
+    margin: auto;
+}
+
+.blog-text{
+    text-align: justify;
+}
+
+
+.blogs-Header{
+    text-align: center;
+    font-weight: 700;
+    width: 50%;
+    background-color:  rgba(250, 235, 215, 0.39);
+    margin: auto;
+    color: tomato;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
