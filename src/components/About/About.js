@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='about-container'>
             <div className='part'>
-                <h1 className='heading-one'>NNABI Refrigeretion Company Limited</h1>
+                <h1 className='heading-one'>NNABI Refrigeretion Limited</h1>
                 <p>NNABI Refrigeretion specializes in the production of a wide variety of consumer and industry electronics, including appliances, digital media devices, semiconductors, memory chips, and integrated systems. It has become one of the most-recognizable names in technology and produces about a fifth of Bangladesh's total exports.</p>
             </div>
             <div className='part'>
