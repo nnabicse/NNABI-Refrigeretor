@@ -21,7 +21,7 @@ const Home = () => {
             <div className='review-home-container'>
                 <div className='p-3'>
                     <div>
-                        <h3 className='user-review-text'>Best User Reviews</h3>
+                        <h3 className='user-review-text'>User Reviews</h3>
                     </div>
                     <div>
                         <HomeReviews></HomeReviews>

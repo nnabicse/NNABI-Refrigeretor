@@ -42,11 +42,11 @@
     font-weight: 700;
 }
 
-.user-review-text{
+.user-review-text {
     text-align: center;
     font-weight: 700;
     width: 30%;
-    background-color:  rgba(250, 235, 215, 0.39);
+    background-color: rgba(250, 235, 215, 0.39);
     margin: auto;
     color: tomato;
     border-radius: 20px;
@@ -110,6 +110,10 @@
 
     .product-and-review-container {
         width: 90%;
+    }
+
+    .user-review-text {
+        width: 50%
     }
 }
 
