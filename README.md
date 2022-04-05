@@ -6,9 +6,7 @@
 
 ### Live site link:
 
-use this link to view live site: []()
-
-[]()
+use this link to view live site: https://nnabi-refrigeretor.netlify.app/
 
 ---
 
